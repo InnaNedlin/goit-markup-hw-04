@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Веб студия</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--Шапка сайта-->
+    <header class="page-header">
+      <div class="container flexbox">
+        <!--Навигация-->
+        <nav class="navigation">
+          <a href="./index.html" class="logo">
+            <span class="web"> Web</span> Studio</a
+          >
+          <ul class="menu-nav list">
+            <li class="item">
+              <a href="./index.html" class="nav-link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="nav-link">Портфолио</a>
+            </li>
+            <li class="item">
+              <a href="./index.html" class="nav-link">Контакты </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- имейл и телефон -->
+        <ul class="contact-us list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="email contact-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contact-link"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!--Герой-->
+    <main>
+      <section class="hero overlay">
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="btn">Заказать услугу</button>
+        </div>
+      </section>
+
+      <!--Преимушества-->
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title" hidden>Наши преимущества</h2>
+
+          <ul class="list feature-list">
+            <!--без ФОКУСА, ТОЛЬКО ХОВЕР, ТАК КАК НЕ ИНТЕРАКТИВНЫЙ ЭЛЕМЕНТ-->
+            <li class="item">
+              <img src="./images/2section/antenna.svg " alt="Веб студия" />
+              <h3 class="list-title">Внимание к деталям</h3>
+              <p class="description">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="item">
+              <img src="./images/2section/clock.svg" alt="Веб студия" />
+              <h3 class="list-title">Пунктуальность</h3>
+              <p class="description">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="item">
+              <img src="./images/2section/diagram.svg" alt="Веб студия" />
+              <h3 class="list-title">Планирование</h3>
+              <p class="description">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="item">
+              <img src="./images/2section/astronaut.svg" alt="Веб студия" />
+              <h3 class="list-title">Современные технологии</h3>
+              <p class="description">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Чем мы занимаемся-->
+      <section class="section margin-top">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="work-list list">
+            <li class="item">
+              <img
+                src="./images/Jpeg/"
+                width="370"
+                alt="наши десктопные приложения"
+              />
+              <h3 class="title">Десктопные приложения</h3>
+            </li>
+            <li class="item">
+              <img
+                src="./images/3section/img2.jpg"
+                width="370"
+                alt="наши мобильные приложения"
+              />
+              <h3 class="title">Мобильные приложения</h3>
+            </li>
+            <li class="item">
+              <img
+                src="./images/3section/img3.jpg"
+                width="370"
+                alt="наши дизайнерские решения"
+              />
+              <h3 class="title">Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Наша команда-->
+      <section class="section background">
+        <div class="container">
+          <h2 class="section-title section-padding">Наша команда</h2>
+          <ul class="list team-menu">
+            <li class="team-member">
+              <img
+                class="image"
+                src="./images/"
+                width="270"
+                alt="Продакт дизайнер"
+              />
+              <h3 class="team-title">Николай Кучеренко</h3>
+              <p class="position-name" lang="en">Product Designer</p>
+
+              <!-- social list -->
+              <ul class="list social-list">
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Instagram"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Facebook"
+                    >Facebook
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на LinkedIn"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="team-member">
+              <img
+                class="image"
+                src="./images/4section/img2.jpg"
+                width="270"
+                alt="Фронт енд девелопер"
+              />
+              <h3 class="team-title">Ольга Иванова</h3>
+              <p class="position-name" lang="en">Frontend Developer</p>
+
+              <ul class="list social-list">
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Instagram"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Facebook"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на LinkedIn"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="team-member">
+              <img
+                class="image"
+                src="./images/4section/img3.jpg"
+                width="270"
+                alt="Маркетинг"
+              />
+              <h3 class="team-title">Андрей Шевченко</h3>
+              <p class="position-name" lang="en">Marketing</p>
+              <ul class="list social-list">
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Instagram"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Facebook"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на LinkedIn"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="team-member">
+              <img
+                class="image"
+                src="./images/4section/img4.jpg"
+                width="270"
+                alt="Дизейнер интерфейсов"
+              />
+              <h3 class="team-title">Иван Николаев</h3>
+              <p class="position-name" lang="en">UI Designer</p>
+              <ul class="list social-list">
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Instagram"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Twitter"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на Facebook"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="social-item">
+                  <a
+                    href="#"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="ссылка на LinkedIn"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Наши клиенты-->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="list clients-list">
+            <li class="clients-item">
+              <a href=""
+                ><img
+                  src="./images/5section/client1.svg"
+                  class="clients-link"
+                  alt="Лого компании1"
+              /></a>
+            </li>
+            <li class="clients-item">
+              <a href=""
+                ><img src="./images/5section/client2.svg" alt="Лого компании2"
+              /></a>
+            </li>
+            <li class="clients-item">
+              <a href=""
+                ><img src="./images/5section/client3.svg" alt="Лого компании3"
+              /></a>
+            </li>
+            <li class="clients-item">
+              <a href=""
+                ><img src="./images/5section/client4.svg" alt="Лого компании4"
+              /></a>
+            </li>
+            <li class="clients-item">
+              <a href=""
+                ><img src="./images/5section/client5.svg " alt="Лого компании5"
+              /></a>
+            </li>
+            <li class="clients-item">
+              <a href=""
+                ><img src="./images/5section/client6.svg" alt="Лого компании6"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--Футер-->
+    <footer class="footer">
+      <div class="container footer-menu">
+        <!-- logo-address-in-footer -->
+
+        <div class="logo-address">
+          <a href="./index.html" class="footer-logo">
+            <span class="web"> Web </span> Studio
+          </a>
+          <address>
+            <p class="contacts-address">г. Киев, пр-т Леси Украинки, 26</p>
+
+            <ul class="padding-zero">
+              <li class="list">
+                <a href="mailto:info@example.com" class="contacts-item"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="list contacts-margin">
+                <a href="tel:+380991111111" class="contacts-item"
+                  >tel:+380991111111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <!-- Присоединяйтесь -->
+        <div class="join-menu">
+          <b class="join">Присоединяйтесь</b>
+          <ul class="list social-list-footer">
+            <li class="social-item-footer">
+              <a
+                href="#"
+                class="social-link-footer"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка на Instagram"
+                >Instagram</a
+              >
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="#"
+                class="social-link-footer"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка на Twitter"
+                >Twitter</a
+              >
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="#"
+                class="social-link-footer"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка на Facebook"
+                >Facebook</a
+              >
+            </li>
+            <li class="social-item-footer">
+              <a
+                href="#"
+                class="social-link-footer"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ссылка на LinkedIn"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <b class="join"> Подпишитесь на рассылку</b>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
